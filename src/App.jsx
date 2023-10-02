@@ -3,7 +3,7 @@ import ChooseDepartment from './Components/chooseDepartment'
 
 function App() {
   return (
-    <div>
+    <div >
       <ChooseDepartment/>
     </div>
   )
