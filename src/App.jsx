@@ -1,10 +1,10 @@
 import React from 'react'
-import ChooseDepartment from './Components/chooseDepartment'
+import Home from './Components/Home'
 
 function App() {
   return (
     <div >
-      <ChooseDepartment/>
+      <Home/>
     </div>
   )
 }

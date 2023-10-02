@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import subjects from '../Subjects/subData'
 import Subjects from './Subjects'
 
-function ChooseDepartment() {
+function Home() {
     const [subject, setSubject] = useState([])
     const [regulation, setRegulation] = useState();
     const [department, setDepartment] = useState('');
@@ -66,4 +66,4 @@ function ChooseDepartment() {
     )
 }
 
-export default ChooseDepartment
+export default Home

@@ -28,7 +28,7 @@ function Subjects({ subject }) {
         if (totalCredits === 0) {
             finalGPA = 0; // Prevent division by zero
         }
-        finalGPA = (totalWeightedGPA / totalCredits).toFixed(2);
+        finalGPA = (totalWeightedGPA / totalCredits).toFixed(3);
         setGpa(finalGPA)
     };
 
