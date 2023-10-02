@@ -14,21 +14,19 @@ function Subjects({ subject }) {
     };
 
     const calculateGPA = () => {
-        let totalCredits = 0;
         let totalWeightedGPA = 0;
         let finalGPA = 0
+        let Tcredit = 0
         subject.forEach(item => {
             const subCredit = item.credits;
+            Tcredit = Tcredit + subCredit
             const grade = grades[item.code];
             if (grade && gpaScale[grade]) {
-                totalCredits += subCredit;
-                totalWeightedGPA += subCredit * gpaScale[grade];
+                totalWeightedGPA = totalWeightedGPA + (subCredit * gpaScale[grade]);
+                // console.log(gpaScale[grade]);
             }
         });
-        if (totalCredits === 0) {
-            finalGPA = 0; // Prevent division by zero
-        }
-        finalGPA = (totalWeightedGPA / totalCredits).toFixed(3);
+        finalGPA = (totalWeightedGPA / Tcredit).toFixed(3);
         setGpa(finalGPA)
     };
 
@@ -39,7 +37,8 @@ function Subjects({ subject }) {
                     {subject.map((item, index) => (
                         <div key={index}>
                             <div className="flex justify-between space-x-4 py-3">
-                                <div className='text-start'>
+                                <div className='text-start flex space-x-3'>
+                                    <p>{index +1})</p>
                                     <p>{item.code} - {item.name}</p>
                                 </div>
                                 <div>

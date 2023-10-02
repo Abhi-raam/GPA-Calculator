@@ -1,0 +1,54 @@
+const details = [
+    {
+        First:[
+            {
+                cse:[
+                    {
+                        1:[
+                            {
+                                name:'Communicative English',
+                                code:'HS8151',
+                                credit:4,
+                                regulation:2017
+                            },
+                            {
+                                name:'Engineering Mathematics - I',
+                                code:'MA8151',
+                                credit:4,
+                                regulation:2017
+                            },
+                            {
+                                name:'Engineering Physics',
+                                code:'PH8151',
+                                credit:3,
+                                regulation:2017
+                            },
+                        ]
+                    },
+                    {
+                        2:[
+                            {
+                                name:'english',
+                                code:'HS8151',
+                                credit:4,
+                                regulation:2017
+                            },
+                            {
+                                name:'english',
+                                code:'HS8151',
+                                credit:4,
+                                regulation:2017
+                            },
+                            {
+                                name:'english',
+                                code:'HS8151',
+                                credit:4,
+                                regulation:2017
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+]
