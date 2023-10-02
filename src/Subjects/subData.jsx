@@ -141,6 +141,46 @@ const subjects = [
         ],
         regulation: "2017",
     },
+    {
+        name: 'Programming in C',
+        code: 'CS8251',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"2"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Environmental Science and Engineering',
+        code: 'GE8291',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"2"},
+            {dept:"ECE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'C Programming Laboratory',
+        code: 'CS8261',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"2"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Engineering Practices Laboratory',
+        code: 'GE8261',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"2"},
+            {dept:"ECE",sem:"2"},
+            {dept:"CIVIL",sem:"2"},
+            {dept:"MECH",sem:"2"},
+        ],
+        regulation: "2017",
+    },
     // sem 2 ece
     {
         name: 'Physics for Electronics Engineering',
