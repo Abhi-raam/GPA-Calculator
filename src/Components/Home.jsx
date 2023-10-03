@@ -7,17 +7,23 @@ function Home() {
     const [regulation, setRegulation] = useState();
     const [department, setDepartment] = useState('');
     const [semester, setSemester] = useState();
+    const [showSubjects, setShowSubjects] = useState(true);
 
     const handleButtonClick = () => {
         // Filter subjects based on selected criteria
+    if (regulation && department && semester) {
         const selected = subjects.filter(subject => {
-          return (
-            subject.regulation === regulation &&
-            subject.department.some(dep => dep.dept === department && dep.sem === semester)
-          );
+            return (
+                subject.regulation === regulation &&
+                subject.department.some(dep => dep.dept === department && dep.sem === semester)
+            );
         }); 
         setSubject(selected);
-      };
+        setShowSubjects(true);
+    } else {
+        setShowSubjects(false);
+    }
+};
 
     return (
         <div >
@@ -59,7 +65,8 @@ function Home() {
                     <div>
                         <button onClick={handleButtonClick} className='bg-blue-600 text-white p-2 rounded-md'>Fetch Subjects</button>
                     </div>
-                    <Subjects subject={subject} />
+                    {/* <Subjects subject={subject} /> */}
+                    {showSubjects ? <Subjects subject={subject} /> : <p className='text-red-700'>Please choose all options to proceed</p>}
                 </div>
             </div>
         </div>
