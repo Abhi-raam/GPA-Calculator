@@ -693,6 +693,143 @@ const subjects = [
         ],
         regulation: "2017",
     },
+    //<======================================================ECE sem 3=======================================================>
+    {
+        name: 'Linear Algebra and Partial Differential Equations',
+        code: 'MA8352',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Fundamentals of Data Structures In C ',
+        code: 'EC8393',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Electronic Circuits- I',
+        code: 'EC8351',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Signals and Systems',
+        code: 'EC8352',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Digital Electronics',
+        code: 'EC8392',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Control Systems Engineering',
+        code: 'EC8391',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Fundamentals of Data Structures in C Laboratory',
+        code: 'EC8381',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Analog and Digital Circuits Laboratory',
+        code: 'EC8361',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================ECE sem 4=======================================================>
+    {
+        name: 'Probability and RandomProcesses',
+        code: 'MA8451',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Electronic Circuits I',
+        code: 'EC8452',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Communication Theory',
+        code: 'EC8491',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Electromagnetic Fields',
+        code: 'EC8451',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Linear Integrated Circuits',
+        code: 'EC8453',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Circuits Design and Simulation Laboratory',
+        code: 'EC8461',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Linear Integrated Circuits Laboratory',
+        code: 'EC8462',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
     //<======================================================CIVIL sem 2=======================================================>
     {
         name: 'Physics for Civil Engineering',

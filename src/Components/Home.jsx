@@ -30,8 +30,8 @@ function Home() {
                     <div className='border-2 border-blue-600 rounded-md w-56'>
                         <select className='outline-none bg-white p' onChange={e => setRegulation(e.target.value)} name="" id="">
                             <option value="">Choose Regulation</option>
-                            <option value="2017">Regulation 2017</option>
                             <option value="2021">Regulation 2021</option>
+                            <option value="2017">Regulation 2017</option>
                         </select>
                     </div>
                     <div className='border-2 border-blue-600 rounded-md w-56'>
