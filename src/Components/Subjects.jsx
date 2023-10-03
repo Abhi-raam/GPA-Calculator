@@ -39,7 +39,7 @@ function Subjects({ subject }) {
                             <div className="flex justify-between space-x-4 py-3">
                                 <div className='text-start flex space-x-3'>
                                     <p>{index +1})</p>
-                                    <p>{item.code} - {item.name}</p>
+                                    <p>{item.code} - {item.name} ({item.credits})</p>
                                 </div>
                                 <div>
                                     <select name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades,[item.code]: selectedGrade}));}}

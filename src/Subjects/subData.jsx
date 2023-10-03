@@ -1,14 +1,14 @@
 const subjects = [
-//<======================================================semester 1 =======================================================>
+    //<======================================================semester 1 =======================================================>
     {
         name: 'Communicative English',
         code: 'HS8151',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
@@ -17,10 +17,10 @@ const subjects = [
         code: 'MA8151',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
@@ -29,10 +29,10 @@ const subjects = [
         code: 'PH8151',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
@@ -41,10 +41,10 @@ const subjects = [
         code: 'CY8151',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
@@ -53,10 +53,10 @@ const subjects = [
         code: 'GE8151',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
@@ -65,10 +65,10 @@ const subjects = [
         code: 'GE8152',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
@@ -77,10 +77,10 @@ const subjects = [
         code: 'GE8161',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
@@ -89,24 +89,24 @@ const subjects = [
         code: 'BS8161',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"1"},
-            {dept:"ECE",sem:"1"},
-            {dept:"CIVIL",sem:"1"},
-            {dept:"MECH",sem:"1"}
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" }
         ],
         regulation: "2017",
     },
 
-//<======================================================sem 2 common=======================================================>
+    //<======================================================sem 2 common=======================================================>
     {
         name: 'Technical English',
         code: 'HS8251',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"2"},
-            {dept:"ECE",sem:"2"},
-            {dept:"CIVIL",sem:"2"},
-            {dept:"MECH",sem:"2"}
+            { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" }
         ],
         regulation: "2017",
     },
@@ -115,10 +115,10 @@ const subjects = [
         code: 'MA8251',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"2"},
-            {dept:"ECE",sem:"2"},
-            {dept:"CIVIL",sem:"2"},
-            {dept:"MECH",sem:"2"}
+            { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" }
         ],
         regulation: "2017",
     },
@@ -127,20 +127,20 @@ const subjects = [
         code: 'GE8261',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"2"},
-            {dept:"ECE",sem:"2"},
-            {dept:"CIVIL",sem:"2"},
-            {dept:"MECH",sem:"2"},
+            { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2017",
     },
-//<======================================================CSE sem 2=======================================================>
+    //<======================================================CSE sem 2=======================================================>
     {
         name: 'Physics for Information Science',
         code: 'PH8252',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"2"},
+            { dept: "CSE", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -149,7 +149,7 @@ const subjects = [
         code: 'BE8255',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"2"},
+            { dept: "CSE", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -158,7 +158,7 @@ const subjects = [
         code: 'CS8251',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"2"},
+            { dept: "CSE", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -167,8 +167,8 @@ const subjects = [
         code: 'GE8291',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"2"},
-            {dept:"ECE",sem:"4"},
+            { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -177,102 +177,483 @@ const subjects = [
         code: 'CS8261',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"2"},
+            { dept: "CSE", sem: "2" },
         ],
         regulation: "2017",
     },
-//<======================================================CSE sem 3=======================================================>
-{
-    name: 'Discrete Mathematics',
-    code: 'MA8351',
-    credits: 4,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Digital Principles and System Design',
-    code: 'CS8351',
-    credits: 4,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Data Structures',
-    code: 'CS8391',
-    credits: 3,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Object Oriented Programming ',
-    code: 'CS8392',
-    credits: 3,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Communication Engineering ',
-    code: 'EC8395',
-    credits: 3,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Data Structures Laboratory ',
-    code: 'CS8381',
-    credits: 2,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Object Oriented Programming Laboratory',
-    code: 'CS8383',
-    credits: 2,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Digital Systems Laboratory',
-    code: 'CS8382',
-    credits: 2,
-    department: [
-        {dept:"CSE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-{
-    name: 'Interpersonal Skills/Listening & Speaking',
-    code: 'HS8381',
-    credits: 1,
-    department: [
-        {dept:"CSE",sem:"3"},
-        {dept:"ECE",sem:"3"},
-    ],
-    regulation: "2017",
-},
-//<======================================================CSE sem 4=======================================================>
-
-//<======================================================ECE sem 2=======================================================>
+    //<======================================================CSE sem 3=======================================================>
+    {
+        name: 'Discrete Mathematics',
+        code: 'MA8351',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Digital Principles and System Design',
+        code: 'CS8351',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Data Structures',
+        code: 'CS8391',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Object Oriented Programming ',
+        code: 'CS8392',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Communication Engineering ',
+        code: 'EC8395',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Data Structures Laboratory ',
+        code: 'CS8381',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Object Oriented Programming Laboratory',
+        code: 'CS8383',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Digital Systems Laboratory',
+        code: 'CS8382',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Interpersonal Skills/Listening & Speaking',
+        code: 'HS8381',
+        credits: 1,
+        department: [
+            { dept: "CSE", sem: "3" },
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CSE sem 4=======================================================>
+    {
+        name: 'Probability and Queueing Theory',
+        code: 'MA8402',
+        credits: 4,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Computer Architecture',
+        code: 'CS8491',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Database Management Systems',
+        code: 'CS8492',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Design and Analysis of Algorithms',
+        code: 'CS8451',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Operating Systems',
+        code: 'CS8493',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Software Engineering',
+        code: 'CS8494',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Database Management Systems Laboratory',
+        code: 'CS8481',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Operating Systems Laboratory',
+        code: 'CS8461',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Advanced Reading and Writing ',
+        code: 'HS8461',
+        credits: 1,
+        department: [
+            {dept:"CSE",sem:"4"},
+            {dept:"CIVIL",sem:"4"},
+            {dept:"MECH",sem:"4"},
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CSE sem 5=======================================================>
+    {
+        name: 'Algebra and Number Theory',
+        code: 'MA8551',
+        credits: 4,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Computer Networks',
+        code: 'CS8591',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Microprocessors and Microcontrollers',
+        code: 'EC8691',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Theory of Computation',
+        code: 'CS8501',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Object Oriented Analysis and Design',
+        code: 'CS8592',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Open Elective I',
+        code: '',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"5"},
+            {dept:"ECE",sem:"5"},
+            {dept:"CIVIL",sem:"5"},
+            {dept:"MECH",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Microprocessors and Microcontrollers Laboratory',
+        code: 'EC8681',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Object Oriented Analysis and Design Laboratory',
+        code: 'CS8582',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Networks Laboratory',
+        code: 'CS8581',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"5"},
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CSE sem 6=======================================================>
+    {
+        name: 'Internet Programming ',
+        code: 'CS8651',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Artificial Intelligence',
+        code: 'CS8691',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Mobile Computing',
+        code: 'CS8601',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Compiler Design',
+        code: 'CS8602',
+        credits: 4,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Distributed Systems',
+        code: 'CS8603',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Professional Elective I',
+        code: '',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"6"},
+            {dept:"ECE",sem:"5"},
+            {dept:"CIVIL",sem:"5"},
+            {dept:"MECH",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Internet Programming Laboratory',
+        code: 'CS8661',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Mobile Application Development Laboratory',
+        code: 'CS8662',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Mini Project',
+        code: 'CS8611',
+        credits: 1,
+        department: [
+            {dept:"CSE",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Professional Communication',
+        code: 'HS8581',
+        credits: 1,
+        department: [
+            {dept:"CSE",sem:"6"},
+            {dept:"ECE",sem:"6"},
+            {dept:"CIVIL",sem:"6"},
+            {dept:"MECH",sem:"6"},
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CSE sem 7=======================================================>
+    {
+        name: 'Principles of Management',
+        code: 'MG8591',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"7"},
+            {dept:"ECE",sem:"6"},
+            {dept:"MECH",sem:"8"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Cryptography and Network Security',
+        code: 'CS8792',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"7"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Cloud Computing',
+        code: 'CS8791',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"7"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Open Elective II',
+        code: '',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"7"},
+            {dept:"ECE",sem:"7"},
+            {dept:"CIVIL",sem:"7"},
+            {dept:"MECH",sem:"7"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Professional Elective II',
+        code: '',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"7"},
+            {dept:"ECE",sem:"6"},
+            {dept:"CIVIL",sem:"6"},
+            {dept:"MECH",sem:"7"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Professional Elective III',
+        code: '',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"7"},
+            {dept:"ECE",sem:"7"},
+            {dept:"CIVIL",sem:"7"},
+            {dept:"MECH",sem:"7"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Cloud Computing Laboratory',
+        code: 'CS8711',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"7"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Security Laboratory',
+        code: 'IT8761',
+        credits: 2,
+        department: [
+            {dept:"CSE",sem:"7"},
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CSE sem 8=======================================================>
+    {
+        name: 'Professional Elective IV',
+        code: '',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"8"},
+            {dept:"ECE",sem:"8"},
+            {dept:"CIVIL",sem:"8"},
+            {dept:"MECH",sem:"8"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Professional Elective V',
+        code: '',
+        credits: 3,
+        department: [
+            {dept:"CSE",sem:"8"},
+            {dept:"ECE",sem:"8"},
+            {dept:"CIVIL",sem:"8"},
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Project Work',
+        code: 'CS8811',
+        credits: 10,
+        department: [
+            {dept:"CSE",sem:"8"},
+        ],
+        regulation: "2017",
+    },
+    //<======================================================ECE sem 2=======================================================>
     {
         name: 'Physics for Electronics Engineering',
         code: 'PH8253',
         credits: 3,
         department: [
-            {dept:"ECE",sem:"2"},
+            { dept: "ECE", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -281,7 +662,7 @@ const subjects = [
         code: 'BE8254',
         credits: 3,
         department: [
-            {dept:"ECE",sem:"2"},
+            { dept: "ECE", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -290,7 +671,7 @@ const subjects = [
         code: 'EC8251',
         credits: 4,
         department: [
-            {dept:"ECE",sem:"2"},
+            { dept: "ECE", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -299,7 +680,7 @@ const subjects = [
         code: 'EC8252',
         credits: 3,
         department: [
-            {dept:"ECE",sem:"2"},
+            { dept: "ECE", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -308,27 +689,27 @@ const subjects = [
         code: 'EC8261',
         credits: 2,
         department: [
-            {dept:"ECE",sem:"2"},
+            { dept: "ECE", sem: "2" },
         ],
         regulation: "2017",
     },
-//<======================================================CIVIL sem 2=======================================================>
+    //<======================================================CIVIL sem 2=======================================================>
     {
         name: 'Physics for Civil Engineering',
         code: 'PH8201',
         credits: 3,
         department: [
-            {dept:"CIVIL",sem:"2"},
+            { dept: "CIVIL", sem: "2" },
         ],
         regulation: "2017",
     },
-//<======================================================MECH sem 2=======================================================>
+    //<======================================================MECH sem 2=======================================================>
     {
         name: 'Materials Science',
         code: 'PH8251',
         credits: 3,
         department: [
-            {dept:"MECH",sem:"2"},
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2017",
     },
