@@ -3,6 +3,8 @@ import Home from './Components/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import GradetoGPA from './Components/GradetoGPA'
+import CGPAtoPersnt from './Components/CGPAtoPersnt'
+import GPAtoCGPA from './Components/GPAtoCGPA'
 
 function App() {
   return (
@@ -12,9 +14,9 @@ function App() {
         {/* components */}
         <Routes>
           <Route exact path='/' element={<Home/>}></Route>
-          <Route exact path="/grade-cgpa" element={<GradetoGPA />}></Route>
-          {/* <Route exact path='/service' element={<Service/>}></Route> */}
-          {/* <Route exact path='/projects' element={<Projects/>}></Route> */}
+          <Route exact path="/gpa" element={<GradetoGPA />}></Route>
+          <Route exact path='/cgpa' element={<GPAtoCGPA/>}></Route>
+          <Route exact path='/persentage' element={<CGPAtoPersnt/>} ></Route>
         </Routes>
       </Router>
     </div>

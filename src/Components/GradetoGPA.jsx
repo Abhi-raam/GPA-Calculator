@@ -32,7 +32,7 @@ function GradetoGPA() {
             </div> */}
             <div >
                 <h1 className='text-center pt-10 text-2xl font-semibold text-blue-600'>Grade to GPA Calculator</h1>
-                <div className='m-4 pt-5 border-4  grid rounded-md justify-items-center space-y-5 text-center py-3'>
+                <div className='m-4 pt-5 border-4 border-blue-600   grid rounded-md justify-items-center space-y-5 text-center py-3'>
                     <div className='border-2 border-blue-600 rounded-md w-56'>
                         <select className='outline-none bg-white p' onChange={e => setRegulation(e.target.value)} name="" id="">
                             <option value="">Choose Regulation</option>
