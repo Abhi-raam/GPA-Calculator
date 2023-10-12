@@ -373,6 +373,7 @@ const subjects = [
         credits: 3,
         department: [
             {dept:"CSE",sem:"5"},
+            {dept:"ECE",sem:"6"},
         ],
         regulation: "2017",
     },
@@ -827,6 +828,190 @@ const subjects = [
         credits: 2,
         department: [
             { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================ECE sem 5========================================================>
+    {
+        name: 'Digital Communication',
+        code: 'EC8501',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Discrete-Time Signal Processing',
+        code: 'EC8553',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Computer Architecture and Organization',
+        code: 'EC8552',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Communication Networks',
+        code: 'EC8551',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Digital Signal Processing Laboratory',
+        code: 'EC8562',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Communication Systems Laboratory',
+        code: 'EC8561',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Communication Networks Laboratory',
+        code: 'EC8563',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================ECE sem 6=======================================================>
+    {
+        name: 'VLSI Design',
+        code: 'EC8095',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Wireless Communication',
+        code: 'EC8652',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Transmission Lines and RF Systems',
+        code: 'EC8651',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Microprocessors and Microcontrollers Laboratory',
+        code: 'EC8681',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'VLSI Design Laboratory',
+        code: 'EC8661',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Technical Seminar',
+        code: 'EC8611',
+        credits: 1,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================ECE sem 7=======================================================>
+    {
+        name: 'Antennas and Microwave Engineering',
+        code: 'EC8701',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Optical Communication ',
+        code: 'EC8751',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Embedded and Real Time Systems',
+        code: 'EC8791',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Ad hoc and Wireless Sensor Networks',
+        code: 'EC8702',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Embedded Laboratory',
+        code: 'EC8711',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Advanced Communication Laboratory',
+        code: 'EC8761',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================ECE sem 8=======================================================>
+    {
+        name: 'Project Work',
+        code: 'EC8811',
+        credits: 10,
+        department: [
+            { dept: "ECE", sem: "8" },
         ],
         regulation: "2017",
     },
