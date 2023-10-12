@@ -169,6 +169,7 @@ const subjects = [
         department: [
             { dept: "CSE", sem: "2" },
             { dept: "ECE", sem: "4" },
+            { dept: "CIVIL", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -261,6 +262,7 @@ const subjects = [
         department: [
             { dept: "CSE", sem: "3" },
             { dept: "ECE", sem: "3" },
+            { dept: "CIVIL", sem: "3" },
         ],
         regulation: "2017",
     },
@@ -1025,6 +1027,244 @@ const subjects = [
         ],
         regulation: "2017",
     },
+    {
+        name: 'Basic Electrical and Electronic Engineering ',
+        code: 'BE8251',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "2" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Engineering Mechanics',
+        code: 'GE8292',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "2" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Compputer Aided Building Drawing',
+        code: 'CE8211',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "2" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CIVIL sem 3=======================================================>
+    {
+        name: 'Transform and Partial Differential Equations',
+        code: 'MA8353',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Strength of Material I',
+        code: 'CE8301',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Fluid Mechanics',
+        code: 'CE8302',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Surveying',
+        code: 'CE8351',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: ' Construction Materials',
+        code: 'CE8391',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: ' Engineering Geology',
+        code: 'CE8392',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Construction Materials Laboratory',
+        code: 'CE8311',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Surveying Laboratory',
+        code: 'CE8361',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CIVIL sem 4=======================================================>
+    {
+        name: 'Numerical Methods',
+        code: 'MA8491',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Construction Techniques and Practices',
+        code: 'CE8401',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Strength of Materials II',
+        code: 'CE8402',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Applied Hydraulic Engineering',
+        code: 'CE8403',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Concrete Technology ',
+        code: 'CE8404',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: ' Soil Mechanics',
+        code: 'CE8491',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Strength of Materials Laboratory',
+        code: 'CE8481',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Hydraulic Engineering Laboratory',
+        code: 'CE8461',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CIVIL sem 5=======================================================>
+    {
+        name: ' Design of Reinforced Cement Concrete Elements',
+        code: 'CE8502',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Structural Analysis I',
+        code: 'CE8501',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: ' Water Supply Engineering',
+        code: 'EN8491',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Foundation Engineering',
+        code: 'CE8591',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: ' Soil Mechanics Laboratory',
+        code: 'CE8511',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Water and Waste Water Analysis Laboratory ',
+        code: 'CE8512',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Survey Camp (2 weeks –During IV Semester) ',
+        code: 'CE8513',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+
     //<======================================================MECH sem 2=======================================================>
     {
         name: 'Materials Science',
