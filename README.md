@@ -1,8 +1,4 @@
-# React + Vite
+# ScoreMate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ScoreMate is a user-friendly web application designed exclusively for students of Anna University. It serves as a comprehensive tool to effortlessly calculate GPA, CGPA, and overall percentage of marks.
+ ScoreMate is designed exclusively for Regulation 2017 and soon to integrate the latest Regulation 2021 standards, ScoreMate ensures you have the most accurate GPA, CGPA, and percentage calculations at your fingertips.
