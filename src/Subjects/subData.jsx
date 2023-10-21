@@ -170,6 +170,7 @@ const subjects = [
             { dept: "CSE", sem: "2" },
             { dept: "ECE", sem: "4" },
             { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2017",
     },
@@ -263,6 +264,7 @@ const subjects = [
             { dept: "CSE", sem: "3" },
             { dept: "ECE", sem: "3" },
             { dept: "CIVIL", sem: "3" },
+            { dept: "MECH", sem: "3" },
         ],
         regulation: "2017",
     },
@@ -1393,6 +1395,373 @@ const subjects = [
         credits: 3,
         department: [
             { dept: "MECH", sem: "2" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Basic Electrical, Electronics and Instrumentation Engineering',
+        code: 'BE8253',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "2" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Engineering Mechanics',
+        code: 'GE8292',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "2" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Basic Electrical, Electronics and Instrumentation Engineering Laboratory',
+        code: 'BE8261',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "2" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================MECH sem 3=======================================================>
+    {
+        name: 'Transforms and Partial Differential Equations',
+        code: 'MA8353',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Engineering Thermodynamics',
+        code: 'ME8391',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Fluid Mechanics and Machinery',
+        code: 'CE8394',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Manufacturing Technology - I ',
+        code: 'ME8351',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Electrical Drives and Controls',
+        code: 'EE8353',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Manufacturing Technology Laboratory - I',
+        code: 'ME8361',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Computer Aided Machine Drawing ',
+        code: 'ME8381',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Electrical Engineering Laboratory',
+        code: 'EE8361',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2017",
+    },  
+    //<======================================================MECH sem 4=======================================================>
+    {
+        name: 'Statistics and Numerical Methods',
+        code: 'MA8452',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Kinematics of Machinery',
+        code: 'ME8492',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Manufacturing Technology - II',
+        code: 'ME8451',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Engineering Metallurgy',
+        code: 'ME8491',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Strength of Materials for Mechanical Engineers',
+        code: 'CE8395',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Thermal Engineering - I',
+        code: 'ME8493',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Manufacturing Technology Laboratory – II',
+        code: 'ME8462',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Strength of Materials and Fluid Mechanics and Machinery Laboratory',
+        code: 'ME8462',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2017",
+    },
+    
+    //<======================================================MECH sem 5=======================================================>
+    {
+        name: 'Thermal Engineering- II',
+        code: 'ME8595',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Design of Machine Elements',
+        code: 'ME8593',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Metrology and Measurements',
+        code: 'ME8501',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Dynamics of Machines',
+        code: 'ME8594',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Kinematics and Dynamics Laboratory',
+        code: 'ME8511',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Thermal Engineering Laboratory',
+        code: 'ME8512',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Metrology and Measurements Laboratory',
+        code: 'ME8513',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================MECH sem 6=======================================================>
+    {
+        name: 'Design of Transmission Systems',
+        code: 'ME8651',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Computer Aided Design and Manufacturing',
+        code: 'ME8691',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Heat and Mass Transfer',
+        code: 'ME8693',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Finite Element Analysis',
+        code: 'ME8692',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Hydraulics and Pneumatics',
+        code: 'ME8694',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'CAD / CAM Laboratory',
+        code: 'ME8681',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Design and Fabrication Project',
+        code: 'ME8682',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================MECH sem 7=======================================================>
+    {
+        name: 'Power Plant Engineering ',
+        code: 'ME8792',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Process Planning and Cost Estimation',
+        code: 'ME8793',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Mechatronics',
+        code: 'ME8791',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Simulation and Analysis Laboratory',
+        code: 'ME8711',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Mechatronics Laboratory',
+        code: 'ME8781',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Technical Seminar',
+        code: 'ME8712',
+        credits: 1,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================MECH sem 8=======================================================>
+    {
+        name: 'Project Work',
+        code: 'ME8811',
+        credits: 1,
+        department: [
+            { dept: "MECH", sem: "8" },
         ],
         regulation: "2017",
     },
