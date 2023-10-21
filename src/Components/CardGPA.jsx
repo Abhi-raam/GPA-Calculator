@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
+import gpaImg from '../assets/grade-to-gpa.png'
+// import gpaImg from '../assets/gpa.jpg'
 
 function CardGPA() {
     const [gpaVIew, setGpaview] = useState(false)
@@ -9,8 +11,8 @@ function CardGPA() {
     return (
         <div className='pb-10'>
             <div className="card w-96 bg-gray-300 shadow-xl">
-                <figure><img src="https://cdn.stucor.in/wp-content/uploads/results-01.png" className='w-40 lg:w-56' alt="GPA TO CGPA" /></figure>
-                <div className="card-body">
+                <figure><img src={gpaImg} className='h-[17rem] w-full '  alt="GPA TO CGPA" /></figure>
+                <div className="card-body ">
                     <h2 className="card-title">GRADE TO GPA</h2>
                     <p></p>
                     <div className="card-actions justify-center">
