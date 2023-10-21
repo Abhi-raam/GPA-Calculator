@@ -10,13 +10,13 @@ function CardCGPA() {
     return (
         <div className='pb-10'>
             <div className="card  w-96 bg-gray-300 shadow-xl">
-                <figure><img src={cgpaImg} className='h-[17rem]' alt="GPA TO CGPA" /></figure>
+                <figure><img src={cgpaImg} className='' alt="GPA TO CGPA" /></figure>
                 <div className="card-body ">
-                    <h2 className="card-title">GPA TO CGPA</h2>
+                    <h2 className="card-title justify-center">GPA TO CGPA</h2>
                     <p></p>
-                    <div className="card-actions justify-center">
-                        <Link to='/cgpa' className="hover:scale-105 transition ease-in-out rounded-full p-1 px-2 font-semibold bg-blue-600 text-white ">Calculate</Link>
-                        <button onClick={GPAbutton} className="hover:scale-105 transition ease-in-out rounded-full p-1 px-2   font-semibold bg-blue-600 text-white ">View More</button>
+                    <div className="card-actions justify-around">
+                        <Link to='/cgpa' className="hover:scale-105 transition ease-in-out rounded-full p-1 px-3 font-semibold bg-blue-600 text-white ">Calculate</Link>
+                        <button onClick={GPAbutton} className="hover:scale-105 transition ease-in-out rounded-full p-1 px-3   font-semibold bg-blue-600 text-white ">View More</button>
                     </div>
                 </div>
                 {gpaVIew && <div className='max-w-sm p-3 '>
