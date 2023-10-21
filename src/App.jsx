@@ -12,12 +12,14 @@ function App() {
       <Router>
         <Navbar />
         {/* components */}
-        <Routes>
+       <div >
+       <Routes >
           <Route exact path='/' element={<Home/>}></Route>
           <Route exact path="/gpa" element={<GradetoGPA />}></Route>
           <Route exact path='/cgpa' element={<GPAtoCGPA/>}></Route>
           <Route exact path='/persentage' element={<CGPAtoPersnt/>} ></Route>
         </Routes>
+       </div>
       </Router>
     </div>
   )

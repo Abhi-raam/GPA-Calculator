@@ -1256,7 +1256,7 @@ const subjects = [
         regulation: "2017",
     },
     {
-        name: 'Survey Camp (2 weeks –During IV Semester) ',
+        name: 'Survey Camp (2 weeks – During IV Semester) ',
         code: 'CE8513',
         credits: 2,
         department: [
@@ -1265,6 +1265,127 @@ const subjects = [
         regulation: "2017",
     },
 
+    //<======================================================CIVIL sem 6=======================================================>
+    {
+        name: 'Design of Steel Structural Elements',
+        code: 'CE8601',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Structural Analysis II',
+        code: 'CE8602',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Irrigation Engineering',
+        code: 'CE8603',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Highway Engineering',
+        code: 'CE8604',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Wastewater Engineering',
+        code: 'EN8592',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Highway Engineering Laboratory',
+        code: 'CE8611 ',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Irrigation and Environmental Engineering Drawing',
+        code: 'CE8612 ',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2017",
+    },
+    
+    //<======================================================CIVIL sem 7=======================================================>
+    {
+        name: 'Estimation, Costing and Valuation Engineering',
+        code: 'CE8701',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Railway, Airport, Docks and Harbour Engineering',
+        code: 'CE8702',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Structural Design and Drawing',
+        code: 'CE8703',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Creative and Innovative Project (Activity Based - Subject Related) ',
+        code: 'CE8CE8711703',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    {
+        name: 'Industrial Training (4 weeks During VI Semester – Summer)',
+        code: 'CE8712',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2017",
+    },
+    //<======================================================CIVIL sem 8=======================================================>
+    {
+        name: 'Project Work',
+        code: 'CE8811',
+        credits: 10,
+        department: [
+            { dept: "CIVIL", sem: "8" },
+        ],
+        regulation: "2017",
+    },
     //<======================================================MECH sem 2=======================================================>
     {
         name: 'Materials Science',
