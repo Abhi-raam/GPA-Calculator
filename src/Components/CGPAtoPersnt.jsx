@@ -3,12 +3,12 @@ import React,{useState} from 'react'
 function CGPAtoPersnt() {
     const [CGPA, setCGPA] = useState()
     const [percentage, setPercentage] = useState()
+    // const [error, seterror] = useState(true)
 
     function CGPAtoPercentage(){
         let percnt = CGPA*10
         console.log(percnt);
         setPercentage(percnt)
-
     }
     return (
         <div>

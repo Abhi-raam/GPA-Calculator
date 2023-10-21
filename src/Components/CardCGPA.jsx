@@ -7,7 +7,7 @@ function CardCGPA() {
         setGpaview(!gpaVIew)
     }
     return (
-        <div>
+        <div className='pb-10'>
             <div className="card  w-96 bg-gray-300 shadow-xl">
                 <figure><img src="https://cdn.stucor.in/wp-content/uploads/results-01.png" className='w-40 lg:w-56' alt="GPA TO CGPA" /></figure>
                 <div className="card-body">
