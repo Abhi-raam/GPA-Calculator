@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 
 function Subjects({ subject }) {
     const [grades, setGrades] = useState({}); // Track grades for each subject
@@ -13,19 +13,23 @@ function Subjects({ subject }) {
         '5': 5,   // Grade C
         '0': 0    // Grade RA
     };
+    useEffect(()=>{
+        setGrades({})
+    },[subject])
 
     const calculateGPA = () => {
         let totalWeightedGPA = 0;
         let finalGPA = 0
         let Tcredit = 0
+        // console.log(subject.length);
+        // console.log(grades);
         if (Object.keys(grades).length === subject.length) {
             subject.forEach(item => {
                 const subCredit = item.credits;
                 Tcredit = Tcredit + subCredit
-                const grade = grades[item.code];
+                const grade = grades[item.name];
                 if (grade && gpaScale[grade]) {
                     totalWeightedGPA = totalWeightedGPA + (subCredit * gpaScale[grade]);
-                    // console.log(gpaScale[grade]);
                 }
             });
             finalGPA = (totalWeightedGPA / Tcredit).toFixed(3);
@@ -48,9 +52,9 @@ function Subjects({ subject }) {
                                     <p>{item.code} - {item.name} ({item.credits})</p>
                                 </div>
                                 <div>
-                                    <select name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades, [item.code]: selectedGrade })); }}
+                                    <select  name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades, [item.name]: selectedGrade })); }}
                                         className='outline-none bg-slate-200 p-1 rounded-md '>
-                                        <option value="">Choose</option>
+                                        <option value='' selected={!grades[item.name]} >Choose</option>
                                         <option value="10">O</option>
                                         <option value="9">A+</option>
                                         <option value="8">A</option>
