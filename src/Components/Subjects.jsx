@@ -15,6 +15,7 @@ function Subjects({ subject }) {
     };
     useEffect(()=>{
         setGrades({})
+        setGpa(null)
     },[subject])
 
     const calculateGPA = () => {
