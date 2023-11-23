@@ -8,44 +8,41 @@ const manifestForPlugin = {
 	registerType: "prompt",
 	includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked.png"],
 	manifest: {
-		"name": "ScoreMatevite",
-    "short_name": "ScoreMatevite",
-		// description: "An app that can show weather forecast for your city.",
-		"icons": [
+    "short_name": "ScoreMate",
+    "name": "ScoreMate",
+    "icons": [
       {
-          "src": "maskable.png",
-          "sizes": "114x114",
-          "type": "image/png",
-          "purpose": "any maskable"
-        },
-      {
-          "src" : "logo192.png",
-          "sizes" : "192x192",
-          "type" : "image/png"
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
       },
       {
-          "src" : "logo256.png",
-          "sizes" : "256x256",
-          "type" : "image/png"
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
       },
       {
-          "src" : "logo384.png",
-          "sizes" : "384x384",
-          "type" : "image/png"
+        "src": "logo256.png",
+        "type": "image/png",
+        "sizes": "256x256"
       },
       {
-          "src" : "logo512.png",
-          "sizes" : "512x512",
-          "type" : "image/png"
+        "src": "logo384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
       }
-  ],
-		theme_color: "#171717",
-		background_color: "#e8ebf2",
-		display: "standalone",
-		scope: "/",
-		start_url: "/",
-		orientation: "portrait",
-	},
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+  }
 };
 export default defineConfig({
   base: "./",
