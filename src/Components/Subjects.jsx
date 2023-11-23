@@ -1,9 +1,10 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Subjects({ subject }) {
     const [grades, setGrades] = useState({}); // Track grades for each subject
     const [gpa, setGpa] = useState(null);
     const [showGpa, setShowGps] = useState(true)
+    const [sub, setSub] = useState()
     const gpaScale = {
         '10': 10, // Grade O
         '9': 9,   // Grade A+
@@ -13,26 +14,27 @@ function Subjects({ subject }) {
         '5': 5,   // Grade C
         '0': 0    // Grade RA
     };
-    useEffect(()=>{
+    useEffect(() => {
         setGrades({})
         setGpa(null)
-    },[subject])
+        setSub(subject)
+    }, [subject])
 
     const calculateGPA = () => {
         let totalWeightedGPA = 0;
         let finalGPA = 0
         let Tcredit = 0
-        // console.log(subject.length);
-        // console.log(grades);
+        let grade = 0
         if (Object.keys(grades).length === subject.length) {
-            subject.forEach(item => {
-                const subCredit = item.credits;
-                Tcredit = Tcredit + subCredit
-                const grade = grades[item.name];
-                if (grade && gpaScale[grade]) {
-                    totalWeightedGPA = totalWeightedGPA + (subCredit * gpaScale[grade]);
+            sub.map((sub) => {
+                grade = grades[sub.name];  //grades:{subName : grade}
+                if (grade !== "0") {
+                    Tcredit = Tcredit + sub.credits
                 }
-            });
+                if (grade && gpaScale[grade]) {
+                    totalWeightedGPA = totalWeightedGPA + (sub.credits * gpaScale[grade]);
+                }
+            })
             finalGPA = (totalWeightedGPA / Tcredit).toFixed(3);
             setGpa(finalGPA)
             setShowGps(true)
@@ -53,7 +55,7 @@ function Subjects({ subject }) {
                                     <p>{item.code} - {item.name} ({item.credits})</p>
                                 </div>
                                 <div>
-                                    <select  name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades, [item.name]: selectedGrade })); }}
+                                    <select name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades, [item.name]: selectedGrade })); }}
                                         className='outline-none bg-slate-200 p-1 rounded-md '>
                                         <option value='' selected={!grades[item.name]} >Choose</option>
                                         <option value="10">O</option>
