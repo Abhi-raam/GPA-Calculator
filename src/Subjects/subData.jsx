@@ -1,4 +1,5 @@
 const subjects = [
+    //<======================================================regulation 2017 =======================================================>
     //<======================================================semester 1 =======================================================>
     {
         name: 'Communicative English',
@@ -782,7 +783,7 @@ const subjects = [
         regulation: "2017",
     },
     {
-        name: 'Electronic Circuits I',
+        name: 'Electronic Circuits II',
         code: 'EC8452',
         credits: 3,
         department: [
@@ -1765,6 +1766,211 @@ const subjects = [
         ],
         regulation: "2017",
     },
+    //<======================================================regulation 2021=======================================================>
+    //<======================================================sem 01================================================================>
+    {
+        name: 'Professional English - I',
+        code: 'HS3151',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Matrices and Calculus',
+        code: 'MA3151',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Engineering Physics',
+        code: 'PH3151',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Engineering Chemistry',
+        code: 'CY3151',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Problem Solving and Python Programming ',
+        code: 'GE3151',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Heritage of Tamils',
+        code: 'GE3152',
+        credits: 1,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Problem Solving and Python Programming Laboratory',
+        code: 'GE3171',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Physics and Chemistry Laboratory',
+        code: 'BS3171',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'English Laboratory',
+        code: 'GE3172',
+        credits: 1,
+        department: [
+            { dept: "CSE", sem: "1" },
+            { dept: "ECE", sem: "1" },
+            { dept: "CIVIL", sem: "1" },
+            { dept: "MECH", sem: "1" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CSE sem 02================================================================>
+    {
+        name: 'Professional English - II',
+        code: 'HS3251',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Statistics and Numerical Methods',
+        code: 'MA3251',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Physics for Information Science ',
+        code: 'PH3256',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Basic Electrical and Electronics Engineering ',
+        code: 'BE3251',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Engineering Graphics',
+        code: 'GE3251',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Programming in C',
+        code: 'CS3251',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Tamils and Technology',
+        code: 'GE3252',
+        credits: 1,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Engineering Practices Laboratory',
+        code: 'GE3271',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Programming in C Laboratory',
+        code: 'CS3271',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Communication Laboratory / Foreign Language ',
+        code: 'GE3272',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+
 ]
 
 

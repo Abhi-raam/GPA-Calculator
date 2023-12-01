@@ -45,5 +45,8 @@ const manifestForPlugin = {
 };
 export default defineConfig({
   base: "./",
+  server: {
+    host: '0.0.0.0',
+  },
   plugins: [react(),VitePWA(manifestForPlugin)]
 });
