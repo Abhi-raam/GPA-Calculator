@@ -1895,6 +1895,9 @@ const subjects = [
         credits: 4,
         department: [
             { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2021",
     },
@@ -1913,6 +1916,7 @@ const subjects = [
         credits: 3,
         department: [
             { dept: "CSE", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2021",
     },
@@ -1922,6 +1926,9 @@ const subjects = [
         credits: 4,
         department: [
             { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2021",
     },
@@ -1940,6 +1947,9 @@ const subjects = [
         credits: 1,
         department: [
             { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2021",
     },
@@ -1949,6 +1959,9 @@ const subjects = [
         credits: 2,
         department: [
             { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2021",
     },
@@ -1967,10 +1980,96 @@ const subjects = [
         credits: 2,
         department: [
             { dept: "CSE", sem: "2" },
+            { dept: "ECE", sem: "2" },
+            { dept: "CIVIL", sem: "2" },
+            { dept: "MECH", sem: "2" },
         ],
         regulation: "2021",
     },
-
+    //<======================================================ECE sem 02================================================================>
+    {
+        name: 'Physics for Electronics Engineering',
+        code: 'PH3254',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Electrical and Instrumentation Engineering',
+        code: 'BE3254',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Circuit Analysis',
+        code: 'EC3251',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Circuits Analysis Laboratory',
+        code: 'EC3271',
+        credits: 1,
+        department: [
+            { dept: "ECE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CIVIL sem 02================================================================>
+    {
+        name: 'Physics for Civil Engineering',
+        code: 'PH3201',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Basic Electrical, Electronics and Instrumentation Engineering',
+        code: 'BE3252',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Basic Electrical, Electronics and Instrumentation Engineering Laboratory',
+        code: 'BE3272',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+     //<======================================================MECH sem 02================================================================>
+     {
+        name: 'Materials Science',
+        code: 'PH3251',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Basic Electrical and Electronics Engineering Laboratory',
+        code: 'BE3271',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "2" },
+        ],
+        regulation: "2021",
+    },
 ]
 
 
