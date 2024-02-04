@@ -1876,7 +1876,7 @@ const subjects = [
         ],
         regulation: "2021",
     },
-    //<======================================================CSE sem 02================================================================>
+    //<======================================================common sem 02================================================================>
     {
         name: 'Professional English - II',
         code: 'HS3251',
@@ -1902,15 +1902,6 @@ const subjects = [
         regulation: "2021",
     },
     {
-        name: 'Physics for Information Science ',
-        code: 'PH3256',
-        credits: 3,
-        department: [
-            { dept: "CSE", sem: "2" },
-        ],
-        regulation: "2021",
-    },
-    {
         name: 'Basic Electrical and Electronics Engineering ',
         code: 'BE3251',
         credits: 3,
@@ -1929,15 +1920,6 @@ const subjects = [
             { dept: "ECE", sem: "2" },
             { dept: "CIVIL", sem: "2" },
             { dept: "MECH", sem: "2" },
-        ],
-        regulation: "2021",
-    },
-    {
-        name: 'Programming in C',
-        code: 'CS3251',
-        credits: 3,
-        department: [
-            { dept: "CSE", sem: "2" },
         ],
         regulation: "2021",
     },
@@ -1966,15 +1948,6 @@ const subjects = [
         regulation: "2021",
     },
     {
-        name: 'Programming in C Laboratory',
-        code: 'CS3271',
-        credits: 2,
-        department: [
-            { dept: "CSE", sem: "2" },
-        ],
-        regulation: "2021",
-    },
-    {
         name: 'Communication Laboratory / Foreign Language ',
         code: 'GE3272',
         credits: 2,
@@ -1986,6 +1959,36 @@ const subjects = [
         ],
         regulation: "2021",
     },
+
+    //<======================================================CSE sem 02================================================================>
+    {
+        name: 'Physics for Information Science ',
+        code: 'PH3256',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Programming in C',
+        code: 'CS3251',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Programming in C Laboratory',
+        code: 'CS3271',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "2" },
+        ],
+        regulation: "2021",
+    },
+    
     //<======================================================ECE sem 02================================================================>
     {
         name: 'Physics for Electronics Engineering',
