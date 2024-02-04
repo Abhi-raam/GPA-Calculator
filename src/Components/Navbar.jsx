@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
+import Installbtn from './Installbtn'
 function Navbar() {
     return (
         <div>
@@ -8,6 +9,9 @@ function Navbar() {
                 <a href="https://abhiramsuresh.vercel.app/">
                     <FaGithub className='text-3xl hover:scale-105 transition ' />
                 </a>
+                <div>
+                    <Installbtn/>
+                </div>
             </div>
         </div>
     )
