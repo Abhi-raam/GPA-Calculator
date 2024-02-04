@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Installbtn() {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
@@ -19,14 +19,12 @@ function Installbtn() {
   const handleInstallClick = () => {
     if (deferredPrompt) {
       deferredPrompt.prompt();
-
       deferredPrompt.userChoice.then((choiceResult) => {
         if (choiceResult.outcome === 'accepted') {
           console.log('User accepted the install prompt');
         } else {
           console.log('User dismissed the install prompt');
         }
-
         setDeferredPrompt(null);
       });
     }
@@ -34,7 +32,7 @@ function Installbtn() {
 
   return (
     <div>
-      <button className='text-white bg-blue-600 rounded-md p-2' onClick={handleInstallClick}>Install App</button>
+      <button className='bg-blue-600 text-white rounded-md p-1' onClick={handleInstallClick}>Install App</button>
     </div>
   );
 }
