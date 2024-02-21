@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa'
 import Installbtn from './Installbtn'
 function Navbar() {
     return (
-        <div>
+        <div className=''>
             <div className='shadow-2xl flex justify-between  p-3'>
                 <h1 className='font-semibold text-xl md:text-2xl'>ScoreMate</h1>
                 <a href="https://abhiramsuresh.vercel.app/">

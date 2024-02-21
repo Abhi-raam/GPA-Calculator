@@ -8,7 +8,7 @@ import GPAtoCGPA from './Components/GPAtoCGPA'
 
 function App() {
   return (
-    <div >
+    <div>
       <Router>
         <Navbar />
         {/* components */}

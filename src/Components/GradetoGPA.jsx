@@ -26,7 +26,7 @@ function GradetoGPA() {
 };
 
     return (
-        <div className='shadow-2xl'>
+        <div className='shadow-2xl '>
             {/* <div>
                 <h1 className='text-center font-semibold text-xl pt-3'>Anna University GPA Calculator</h1>
             </div> */}
