@@ -1989,6 +1989,169 @@ const subjects = [
         regulation: "2021",
     },
     
+    //<======================================================common sem 03================================================================>
+    {
+        name: 'Professional Development',
+        code: 'GE3361',
+        credits: 1,
+        department: [
+            { dept: "CSE", sem: "3" },
+            { dept: "ECE", sem: "3" },
+            { dept: "CIVIL", sem: "3" },
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CSE sem 03================================================================>
+    {
+        name: 'Discrete Mathematics',
+        code: 'MA3354',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Digital Principles and Computer Organization',
+        code: 'CS3351',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Foundations of Data Science',
+        code: 'CS3352',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Data Structures',
+        code: 'CS3301',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Object Orient Programming',
+        code: 'CS3391',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Data Structures Laboratory',
+        code: 'CS3311',
+        credits: 1.5,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Object Oriented Programming Laboratory',
+        code: 'CS3381',
+        credits: 1.5,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Data Science Laboratory',
+        code: 'CS3361',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+     //<======================================================common sem 04================================================================>
+     {
+        name: 'Environmental Sciences and Sustainability',
+        code: 'GE3451',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "4" },
+            { dept: "ECE", sem: "4" },
+            { dept: "CIVIL", sem: "4" },
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+     //<======================================================CSE sem 04================================================================>
+     {
+        name: 'Theory of Computation',
+        code: 'CS3452',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Artificial Intelligence and Machine Learning ',
+        code: 'CS3491',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Database Management Systems',
+        code: 'CS3492',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Algorithms',
+        code: 'CS3401',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Introduction to Operating Systems',
+        code: 'CS3451',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Operating Systems Laboratory',
+        code: 'CS3461',
+        credits: 1.5,
+        department: [
+            { dept: "CSE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Database Management Systems Laboratory',
+        code: 'CS3481',
+        credits: 1.5,
+        department: [
+            { dept: "CSE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
     //<======================================================ECE sem 02================================================================>
     {
         name: 'Physics for Electronics Engineering',
