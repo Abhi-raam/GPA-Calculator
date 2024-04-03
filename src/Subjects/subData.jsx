@@ -2452,6 +2452,219 @@ const subjects = [
         ],
         regulation: "2021",
     },
+    //<======================================================ECE sem 03================================================================>
+    {
+        name: 'Random Processes and Linear Algebra',
+        code: 'MA3355',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'C Programming and Data Structures',
+        code: 'CS3353',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Signals and Systems',
+        code: 'EC3354',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Electronic Devices and Circuits',
+        code: 'EC3353',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Control Systems ',
+        code: 'EC3351',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Digital Systems Design ',
+        code: 'EC3352',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Electronic Device Circuits Laboratory',
+        code: 'EC3361',
+        credits: 1.5,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'C Programming and Data Structures Laboratory',
+        code: 'CS3362',
+        credits: 1.5,
+        department: [
+            { dept: "ECE", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================ECE sem 04================================================================>
+    {
+        name: 'Electromagnetic Fields',
+        code: 'EC3452',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Networks and Security',
+        code: 'EC3401',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Linear Integrated Circuits',
+        code: 'EC3451',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Digital Signal Processing',
+        code: 'EC3492',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Communication Systems ',
+        code: 'EC3491',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Communication Systems Laboratory',
+        code: 'EC3461',
+        credits: 1.5,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Linear Integrated Circuits Laboratory',
+        code: 'EC3462',
+        credits: 1.5,
+        department: [
+            { dept: "ECE", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================ECE sem 05================================================================>
+     {
+        name: 'Wireless Communication',
+        code: 'EC3501',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'VLSI and Chip Design',
+        code: 'EC3552',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Transmission lines and RF Systems',
+        code: 'EC3551',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'VLSI Laboratory',
+        code: 'EC3561',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================ECE sem 06================================================================>
+    {
+        name: 'Embedded Systems and IOT Design',
+        code: 'ET3491',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Artificial Intelligence and Machine Learning',
+        code: 'CS3491',
+        credits: 4,
+        department: [
+            { dept: "ECE", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+     //<======================================================ECE sem 07================================================================>
+     {
+        name: 'Summer internship',
+        code: 'EC3711',
+        credits: 2,
+        department: [
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+     //<======================================================ECE sem 08================================================================>
+     {
+        name: 'Project Work / Internship',
+        code: 'EC3811',
+        credits: 10,
+        department: [
+            { dept: "ECE", sem: "8" },
+        ],
+        regulation: "2021",
+    },
     //<======================================================CIVIL sem 02================================================================>
     {
         name: 'Physics for Civil Engineering',
