@@ -2152,6 +2152,269 @@ const subjects = [
         ],
         regulation: "2021",
     },
+    //<======================================================common sem 05================================================================>
+    {
+        name: 'Professional Elective I',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "5" },
+            { dept: "ECE", sem: "5" },
+            { dept: "CIVIL", sem: "5" },
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Professional Elective II',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "5" },
+            { dept: "ECE", sem: "5" },
+            { dept: "CIVIL", sem: "5" },
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Professional Elective III',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "5" },
+            { dept: "CIVIL", sem: "5" },
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Mandatory Course-I',
+        code: '',
+        credits: 0,
+        department: [
+            { dept: "CSE", sem: "5" },
+            { dept: "ECE", sem: "5" },
+            { dept: "CIVIL", sem: "5" },
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CSE sem 05================================================================>
+    {
+        name: 'Computer Networks',
+        code: 'CS3591',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Compiler Design',
+        code: 'CS3501',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Cryptography and Cyber Security',
+        code: 'CB3491',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Distributed Computing ',
+        code: 'CS3551',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================common sem 06================================================================>
+    {
+        name: 'Open Elective – I*',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "6" },
+            { dept: "ECE", sem: "6" },
+            { dept: "CIVIL", sem: "6" },
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Professional Elective IV',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "6" },
+            { dept: "CIVIL", sem: "6" },
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Professional Elective V',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "6" },
+            { dept: "ECE", sem: "6" },
+            { dept: "CIVIL", sem: "6" },
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Professional Elective VI',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "6" },
+            { dept: "ECE", sem: "6" },
+            { dept: "CIVIL", sem: "6" },
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Professional Elective VII ',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "ECE", sem: "6" },
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Mandatory Course-II',
+        code: '',
+        credits: 0,
+        department: [
+            { dept: "CSE", sem: "6" },
+            { dept: "ECE", sem: "6" },
+            { dept: "CIVIL", sem: "6" },
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CSE sem 06================================================================>
+    {
+        name: 'Object Oriented SoftwareEngineering',
+        code: 'CCS356',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Embedded Systems and IoT',
+        code: 'CS3691',
+        credits: 4,
+        department: [
+            { dept: "CSE", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Professional Elective III ',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================common sem 07================================================================>
+    {
+        name: 'Human Values and Ethics',
+        code: 'GE3791',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "7" },
+            { dept: "CIVIL", sem: "7" },
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    
+    {
+        name: 'Elective - Management',
+        code: '',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Open Elective – II',
+        code: 'GE3791',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "7" },
+            { dept: "CIVIL", sem: "7" },
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Open Elective – III',
+        code: 'GE3791',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "7" },
+            { dept: "CIVIL", sem: "7" },
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Open Elective – IV',
+        code: 'GE3791',
+        credits: 3,
+        department: [
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "7" },
+            { dept: "CIVIL", sem: "7" },
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CSE sem 07================================================================>
+    {
+        name: 'Summer internship',
+        code: 'CS3711',
+        credits: 2,
+        department: [
+            { dept: "CSE", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CSE sem 08================================================================>
+    {
+        name: 'Project Work/Internship',
+        code: 'CS3811',
+        credits: 10,
+        department: [
+            { dept: "CSE", sem: "8" },
+        ],
+        regulation: "2021",
+    },
     //<======================================================ECE sem 02================================================================>
     {
         name: 'Physics for Electronics Engineering',
