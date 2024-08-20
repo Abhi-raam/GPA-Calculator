@@ -275,7 +275,7 @@ const subjects = [
         code: 'MA8402',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -284,7 +284,7 @@ const subjects = [
         code: 'CS8491',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -293,7 +293,7 @@ const subjects = [
         code: 'CS8492',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -302,7 +302,7 @@ const subjects = [
         code: 'CS8451',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -311,7 +311,7 @@ const subjects = [
         code: 'CS8493',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -320,7 +320,7 @@ const subjects = [
         code: 'CS8494',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -329,7 +329,7 @@ const subjects = [
         code: 'CS8481',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -338,7 +338,7 @@ const subjects = [
         code: 'CS8461',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"4"},
+            { dept: "CSE", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -347,9 +347,9 @@ const subjects = [
         code: 'HS8461',
         credits: 1,
         department: [
-            {dept:"CSE",sem:"4"},
-            {dept:"CIVIL",sem:"4"},
-            {dept:"MECH",sem:"4"},
+            { dept: "CSE", sem: "4" },
+            { dept: "CIVIL", sem: "4" },
+            { dept: "MECH", sem: "4" },
         ],
         regulation: "2017",
     },
@@ -359,7 +359,7 @@ const subjects = [
         code: 'MA8551',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"5"},
+            { dept: "CSE", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -368,7 +368,7 @@ const subjects = [
         code: 'CS8591',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"5"},
+            { dept: "CSE", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -377,8 +377,8 @@ const subjects = [
         code: 'EC8691',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"5"},
-            {dept:"ECE",sem:"6"},
+            { dept: "CSE", sem: "5" },
+            { dept: "ECE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -387,7 +387,7 @@ const subjects = [
         code: 'CS8501',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"5"},
+            { dept: "CSE", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -396,7 +396,7 @@ const subjects = [
         code: 'CS8592',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"5"},
+            { dept: "CSE", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -405,10 +405,10 @@ const subjects = [
         code: '',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"5"},
-            {dept:"ECE",sem:"5"},
-            {dept:"CIVIL",sem:"5"},
-            {dept:"MECH",sem:"5"},
+            { dept: "CSE", sem: "5" },
+            { dept: "ECE", sem: "5" },
+            { dept: "CIVIL", sem: "5" },
+            { dept: "MECH", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -417,7 +417,7 @@ const subjects = [
         code: 'EC8681',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"5"},
+            { dept: "CSE", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -426,7 +426,7 @@ const subjects = [
         code: 'CS8582',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"5"},
+            { dept: "CSE", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -435,7 +435,7 @@ const subjects = [
         code: 'CS8581',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"5"},
+            { dept: "CSE", sem: "5" },
         ],
         regulation: "2017",
     },
@@ -445,7 +445,7 @@ const subjects = [
         code: 'CS8651',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -454,7 +454,7 @@ const subjects = [
         code: 'CS8691',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -463,7 +463,7 @@ const subjects = [
         code: 'CS8601',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -472,7 +472,7 @@ const subjects = [
         code: 'CS8602',
         credits: 4,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -481,7 +481,7 @@ const subjects = [
         code: 'CS8603',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -490,10 +490,10 @@ const subjects = [
         code: '',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"6"},
-            {dept:"ECE",sem:"5"},
-            {dept:"CIVIL",sem:"5"},
-            {dept:"MECH",sem:"6"},
+            { dept: "CSE", sem: "6" },
+            { dept: "ECE", sem: "5" },
+            { dept: "CIVIL", sem: "5" },
+            { dept: "MECH", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -502,7 +502,7 @@ const subjects = [
         code: 'CS8661',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -511,7 +511,7 @@ const subjects = [
         code: 'CS8662',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -520,7 +520,7 @@ const subjects = [
         code: 'CS8611',
         credits: 1,
         department: [
-            {dept:"CSE",sem:"6"},
+            { dept: "CSE", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -529,10 +529,10 @@ const subjects = [
         code: 'HS8581',
         credits: 1,
         department: [
-            {dept:"CSE",sem:"6"},
-            {dept:"ECE",sem:"6"},
-            {dept:"CIVIL",sem:"6"},
-            {dept:"MECH",sem:"6"},
+            { dept: "CSE", sem: "6" },
+            { dept: "ECE", sem: "6" },
+            { dept: "CIVIL", sem: "6" },
+            { dept: "MECH", sem: "6" },
         ],
         regulation: "2017",
     },
@@ -542,9 +542,9 @@ const subjects = [
         code: 'MG8591',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"7"},
-            {dept:"ECE",sem:"6"},
-            {dept:"MECH",sem:"8"},
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "6" },
+            { dept: "MECH", sem: "8" },
         ],
         regulation: "2017",
     },
@@ -553,7 +553,7 @@ const subjects = [
         code: 'CS8792',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"7"},
+            { dept: "CSE", sem: "7" },
         ],
         regulation: "2017",
     },
@@ -562,7 +562,7 @@ const subjects = [
         code: 'CS8791',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"7"},
+            { dept: "CSE", sem: "7" },
         ],
         regulation: "2017",
     },
@@ -571,10 +571,10 @@ const subjects = [
         code: '',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"7"},
-            {dept:"ECE",sem:"7"},
-            {dept:"CIVIL",sem:"7"},
-            {dept:"MECH",sem:"7"},
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "7" },
+            { dept: "CIVIL", sem: "7" },
+            { dept: "MECH", sem: "7" },
         ],
         regulation: "2017",
     },
@@ -583,10 +583,10 @@ const subjects = [
         code: '',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"7"},
-            {dept:"ECE",sem:"6"},
-            {dept:"CIVIL",sem:"6"},
-            {dept:"MECH",sem:"7"},
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "6" },
+            { dept: "CIVIL", sem: "6" },
+            { dept: "MECH", sem: "7" },
         ],
         regulation: "2017",
     },
@@ -595,10 +595,10 @@ const subjects = [
         code: '',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"7"},
-            {dept:"ECE",sem:"7"},
-            {dept:"CIVIL",sem:"7"},
-            {dept:"MECH",sem:"7"},
+            { dept: "CSE", sem: "7" },
+            { dept: "ECE", sem: "7" },
+            { dept: "CIVIL", sem: "7" },
+            { dept: "MECH", sem: "7" },
         ],
         regulation: "2017",
     },
@@ -607,7 +607,7 @@ const subjects = [
         code: 'CS8711',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"7"},
+            { dept: "CSE", sem: "7" },
         ],
         regulation: "2017",
     },
@@ -616,7 +616,7 @@ const subjects = [
         code: 'IT8761',
         credits: 2,
         department: [
-            {dept:"CSE",sem:"7"},
+            { dept: "CSE", sem: "7" },
         ],
         regulation: "2017",
     },
@@ -626,10 +626,10 @@ const subjects = [
         code: '',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"8"},
-            {dept:"ECE",sem:"8"},
-            {dept:"CIVIL",sem:"8"},
-            {dept:"MECH",sem:"8"},
+            { dept: "CSE", sem: "8" },
+            { dept: "ECE", sem: "8" },
+            { dept: "CIVIL", sem: "8" },
+            { dept: "MECH", sem: "8" },
         ],
         regulation: "2017",
     },
@@ -638,9 +638,9 @@ const subjects = [
         code: '',
         credits: 3,
         department: [
-            {dept:"CSE",sem:"8"},
-            {dept:"ECE",sem:"8"},
-            {dept:"CIVIL",sem:"8"},
+            { dept: "CSE", sem: "8" },
+            { dept: "ECE", sem: "8" },
+            { dept: "CIVIL", sem: "8" },
         ],
         regulation: "2017",
     },
@@ -649,7 +649,7 @@ const subjects = [
         code: 'CS8811',
         credits: 10,
         department: [
-            {dept:"CSE",sem:"8"},
+            { dept: "CSE", sem: "8" },
         ],
         regulation: "2017",
     },
@@ -1332,7 +1332,7 @@ const subjects = [
         ],
         regulation: "2017",
     },
-    
+
     //<======================================================CIVIL sem 7=======================================================>
     {
         name: 'Estimation, Costing and Valuation Engineering',
@@ -1498,7 +1498,7 @@ const subjects = [
             { dept: "MECH", sem: "3" },
         ],
         regulation: "2017",
-    },  
+    },
     //<======================================================MECH sem 4=======================================================>
     {
         name: 'Statistics and Numerical Methods',
@@ -1572,7 +1572,7 @@ const subjects = [
         ],
         regulation: "2017",
     },
-    
+
     //<======================================================MECH sem 5=======================================================>
     {
         name: 'Thermal Engineering- II',
@@ -1988,7 +1988,7 @@ const subjects = [
         ],
         regulation: "2021",
     },
-    
+
     //<======================================================common sem 03================================================================>
     {
         name: 'Professional Development',
@@ -2075,8 +2075,8 @@ const subjects = [
         ],
         regulation: "2021",
     },
-     //<======================================================common sem 04================================================================>
-     {
+    //<======================================================common sem 04================================================================>
+    {
         name: 'Environmental Sciences and Sustainability',
         code: 'GE3451',
         credits: 2,
@@ -2088,8 +2088,8 @@ const subjects = [
         ],
         regulation: "2021",
     },
-     //<======================================================CSE sem 04================================================================>
-     {
+    //<======================================================CSE sem 04================================================================>
+    {
         name: 'Theory of Computation',
         code: 'CS3452',
         credits: 3,
@@ -2348,7 +2348,7 @@ const subjects = [
         ],
         regulation: "2021",
     },
-    
+
     {
         name: 'Elective - Management',
         code: '',
@@ -2590,7 +2590,7 @@ const subjects = [
         regulation: "2021",
     },
     //<======================================================ECE sem 05================================================================>
-     {
+    {
         name: 'Wireless Communication',
         code: 'EC3501',
         credits: 4,
@@ -2645,8 +2645,8 @@ const subjects = [
         ],
         regulation: "2021",
     },
-     //<======================================================ECE sem 07================================================================>
-     {
+    //<======================================================ECE sem 07================================================================>
+    {
         name: 'Summer internship',
         code: 'EC3711',
         credits: 2,
@@ -2655,8 +2655,8 @@ const subjects = [
         ],
         regulation: "2021",
     },
-     //<======================================================ECE sem 08================================================================>
-     {
+    //<======================================================ECE sem 08================================================================>
+    {
         name: 'Project Work / Internship',
         code: 'EC3811',
         credits: 10,
@@ -2693,8 +2693,275 @@ const subjects = [
         ],
         regulation: "2021",
     },
-     //<======================================================MECH sem 02================================================================>
-     {
+    //<======================================================CIVIL sem 03================================================================>
+    {
+        name: 'Transforms and Partial Differential Equations',
+        code: 'MA3351',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Engineering Mechanics',
+        code: 'ME3351',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Fluid Mechanics',
+        code: 'CE3301',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Construction Materials and Technology',
+        code: 'CE3302',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Water Supply and Wastewater Engineering',
+        code: 'CE3303',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Surveying and Levelling',
+        code: 'CE3351',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Surveying and Levelling Laboratory',
+        code: 'CE3361',
+        credits: 1.5,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Water and Wastewater Analysis Laboratory',
+        code: 'CE3311',
+        credits: 1.5,
+        department: [
+            { dept: "CIVIL", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CIVIL sem 04================================================================>
+    {
+        name: 'Applied Hydraulics Engineering',
+        code: 'CE3401',
+        credits: 4,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Strength of Materials',
+        code: 'CE3402',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Concrete Technology',
+        code: 'CE3403',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Soil Mechanics ',
+        code: 'CE3404',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Highway and Railway Engineering ',
+        code: 'CE3405',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Hydraulic Engineering Laboratory',
+        code: 'CE3411',
+        credits: 1.5,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Materials Testing Laboratory',
+        code: 'CE3412',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Soil Mechanics Laboratory',
+        code: 'CE3413',
+        credits: 1.5,
+        department: [
+            { dept: "CIVIL", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CIVIL sem 05================================================================>
+    {
+        name: 'Design of Reinforced Concrete Structural Elements',
+        code: 'CE3501',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Structural Analysis I',
+        code: 'CE3502',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Foundation Engineering',
+        code: 'CE3503',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Highway Engineering Laboratory',
+        code: 'CE3511',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Survey Camp (2 weeks)',
+        code: 'CE3512',
+        credits: 1,
+        department: [
+            { dept: "CIVIL", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CIVIL sem 06================================================================>
+    {
+        name: 'Design of Steel Structural Elements',
+        code: 'CE3601',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Structural Analysis II',
+        code: 'CE3602',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Engineering Geology',
+        code: 'AG3601',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Building Drawing and Detailing Laboratory',
+        code: 'CE3611',
+        credits: 2,
+        department: [
+            { dept: "CIVIL", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CIVIL sem 07================================================================>
+    {
+        name: 'Estimation, Costing and Valuation Engineering',
+        code: 'CE3701',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Hydrology and Irrigation Engineering',
+        code: 'CE3702',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Total Quality Management ',
+        code: 'GE3752',
+        credits: 3,
+        department: [
+            { dept: "CIVIL", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================CIVIL sem 08================================================================>
+    {
+        name: 'Project Work / Internship',
+        code: 'CE3811',
+        credits: 10,
+        department: [
+            { dept: "CIVIL", sem: "8" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================MECH sem 02================================================================>
+    {
         name: 'Materials Science',
         code: 'PH3251',
         credits: 3,
