@@ -2700,6 +2700,7 @@ const subjects = [
         credits: 4,
         department: [
             { dept: "CIVIL", sem: "3" },
+            { dept: "MECH", sem: "3" },
         ],
         regulation: "2021",
     },
@@ -2709,6 +2710,7 @@ const subjects = [
         credits: 3,
         department: [
             { dept: "CIVIL", sem: "3" },
+            { dept: "MECH", sem: "3" },
         ],
         regulation: "2021",
     },
@@ -2979,6 +2981,246 @@ const subjects = [
         ],
         regulation: "2021",
     },
+    //<======================================================MECH sem 03================================================================>
+    {
+        name: 'Engineering Thermodynamics',
+        code: 'ME3391',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Fluid Mechanics and Machinery',
+        code: 'CE3391',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Engineering Materials and Metallurgy ',
+        code: 'ME3392',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Manufacturing Processes',
+        code: 'ME3393',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Computer Aided Machine Drawing',
+        code: 'ME3381',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Manufacturing Technology Laboratory',
+        code: 'ME3382',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "3" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================MECH sem 04================================================================>
+    {
+        name: 'Theory of Machines',
+        code: 'ME3491',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Thermal Engineering',
+        code: 'ME3451',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Hydraulics and Pneumatics',
+        code: 'ME3492',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Manufacturing Technology',
+        code: 'ME3493',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Strength of Materials',
+        code: 'CE3491',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Strength of Materials and Fluid Machinery Laboratory',
+        code: 'CE3481',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Thermal Engineering Laboratory',
+        code: 'ME3461',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "4" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================MECH sem 05================================================================>
+    {
+        name: 'Design of Machine Elements',
+        code: 'ME3591',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Metrology and Measurements',
+        code: 'ME3592',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Summer Internship',
+        code: 'ME3511',
+        credits: 1,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Metrology and Dynamics Laboratory ',
+        code: 'ME3581',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "5" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================MECH sem 06================================================================>
+    {
+        name: 'Heat and Mass Transfer',
+        code: 'ME3691',
+        credits: 4,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'CAD/CAM Laboratory',
+        code: 'ME3681',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Heat Transfer Laboratory ',
+        code: 'ME3611',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "6" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================MECH sem 07================================================================>
+    {
+        name: 'Mechatronics and IoT',
+        code: 'ME3791',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Computer Integrated Manufacturing',
+        code: 'ME3792',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Industrial Management',
+        code: 'GE3792',
+        credits: 3,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Mechatronics and IoT Laboratory',
+        code: 'ME3781',
+        credits: 2,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    {
+        name: 'Summer Internship',
+        code: 'ME3711',
+        credits: 1,
+        department: [
+            { dept: "MECH", sem: "7" },
+        ],
+        regulation: "2021",
+    },
+    //<======================================================MECH sem 08================================================================>
+        {
+            name: 'Project Work / Internship',
+            code: 'ME3811',
+            credits: 10,
+            department: [
+                { dept: "MECH", sem: "8" },
+            ],
+            regulation: "2021",
+        },
 ]
 
 
