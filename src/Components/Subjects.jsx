@@ -56,7 +56,7 @@ function Subjects({ subject }) {
                                 </div>
                                 <div>
                                     <select name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades, [item.name]: selectedGrade })); }}
-                                        className='outline-none bg-slate-200 p-1 rounded-md '>
+                                        className='select select-bordered w-full max-w-sm select-sm'>
                                         <option value='' selected={!grades[item.name]} >Choose</option>
                                         <option value="10">O</option>
                                         <option value="9">A+</option>

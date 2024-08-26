@@ -1,23 +1,26 @@
 import React from 'react'
-import Home from './Components/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar'
-import GradetoGPA from './Components/GradetoGPA'
-import CGPAtoPersnt from './Components/CGPAtoPersnt'
-import GPAtoCGPA from './Components/GPAtoCGPA'
+import HomePage from './Pages/HomePage'
+import CgpaPage from './Pages/CgpaPage'
+import Footer from './Components/Footer'
+import GpaPage from './Pages/GpaPage'
+import PercentagePage from './Pages/PercentagePage'
 
 function App() {
   return (
     <div>
       <Router>
         <Navbar />
-        {/* components */}
-       <Routes >
-          <Route exact path='/' element={<Home/>}></Route>
-          <Route exact path="/gpa" element={<GradetoGPA />}></Route>
-          <Route exact path='/cgpa' element={<GPAtoCGPA/>}></Route>
-          <Route exact path='/persentage' element={<CGPAtoPersnt/>} ></Route>
+
+        <Routes >
+          <Route exact path='/' element={<HomePage />}></Route>
+          <Route exact path='/gpa' element={<GpaPage />}></Route>
+          <Route exact path="/cgpa" element={<CgpaPage />}></Route>
+          <Route exact path='/percentage' element={<PercentagePage />} ></Route>
         </Routes>
+
+        <Footer />
       </Router>
     </div>
   )
