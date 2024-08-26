@@ -70,7 +70,7 @@ function Subjects({ subject }) {
                             </div>
                         </div>
                     ))}
-                    <button className='bg-blue-600 text-white p-1 rounded-md' onClick={calculateGPA}>Calculate GPA</button>
+                    <button className='bg-SecondaryGreen hover:bg-SecondaryGreen/80 text-white p-1 rounded-md' onClick={calculateGPA}>Calculate GPA</button>
                     {showGpa ? <div>
                         {gpa !== null && (
                             <div className="mt-4">

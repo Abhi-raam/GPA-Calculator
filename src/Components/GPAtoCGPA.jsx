@@ -87,7 +87,7 @@ function GPAtoCGPA() {
             <option value={8}>8</option>
           </select>
           <div>
-            <button onClick={enterGpa} className="bg-blue-600 text-white p-2 rounded-md">
+            <button onClick={enterGpa} className="bg-SecondaryGreen hover:bg-SecondaryGreen/80 text-white p-2 rounded-md">
               Enter GPA
             </button>
           </div>
@@ -109,7 +109,7 @@ function GPAtoCGPA() {
                     </div>
                   ))}
                 </div>
-                <button type='submit' className="bg-blue-600 text-white p-2 rounded-md">
+                <button type='submit' className="bg-SecondaryGreen hover:bg-SecondaryGreen/80 text-white p-2 rounded-md">
                   Calculate Average
                 </button></form>
               {errorMessage &&

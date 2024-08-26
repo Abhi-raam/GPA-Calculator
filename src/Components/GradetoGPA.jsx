@@ -54,7 +54,7 @@ function GradetoGPA() {
                             <option value="8">Semester 8</option>
                         </select>
                     <div>
-                        <button onClick={handleButtonClick} className='bg-blue-600 text-white p-2 rounded-md'>Fetch Subjects</button>
+                        <button onClick={handleButtonClick} className='bg-SecondaryGreen hover:bg-SecondaryGreen/80 text-white p-2 rounded-md'>Fetch Subjects</button>
                     </div>
                     {showSubjects ? <Subjects subject={subject} /> : <p className='text-red-700'>Please choose all options to proceed</p>}
                 </div>

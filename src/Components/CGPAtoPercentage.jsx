@@ -43,7 +43,7 @@ function CGPAtoPercentage() {
                             <input onChange={(e) => setCGPA(e.target.value)} type="text" placeholder="Enter CGPA" className="input input-bordered md:w-[20rem] max-w-xs" />
                         </div>
                         <div className="flex justify-center pt-5">
-                            <button onClick={CGPAtoPercentage} className='btn bg-blue-500 hover:bg-blue-600 text-white'>Calculate</button>
+                            <button onClick={CGPAtoPercentage} className='btn bg-SecondaryGreen hover:bg-SecondaryGreen/80 text-white'>Calculate</button>
                         </div>
                     </form>
                     {errorMessage ? (
