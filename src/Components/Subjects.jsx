@@ -52,11 +52,11 @@ function Subjects({ subject }) {
                             <div className="flex justify-between space-x-4 py-3">
                                 <div className='text-start flex space-x-3'>
                                     <p>{index + 1})</p>
-                                    <p>{item.code} - {item.name} ({item.credits})</p>
+                                    <p className='max-md:max-w-[14rem]'>{item.code} - {item.name} ({item.credits})</p>
                                 </div>
                                 <div>
                                     <select name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades, [item.name]: selectedGrade })); }}
-                                        className='select select-bordered w-full max-w-sm select-sm'>
+                                        className='select select-bordered w-full max-w-xs select-sm'>
                                         <option value='' selected={!grades[item.name]} >Choose</option>
                                         <option value="10">O</option>
                                         <option value="9">A+</option>
