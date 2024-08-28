@@ -57,14 +57,15 @@ function Subjects({ subject }) {
                                 <div>
                                     <select name="" onChange={e => { const selectedGrade = e.target.value; setGrades(prevGrades => ({ ...prevGrades, [item.name]: selectedGrade })); }}
                                         className='select select-bordered w-full max-w-xs select-sm'>
-                                        <option value='' selected={!grades[item.name]} >Choose</option>
-                                        <option value="10">O</option>
-                                        <option value="9">A+</option>
-                                        <option value="8">A</option>
-                                        <option value="7">B+</option>
-                                        <option value="6">B</option>
-                                        <option value="5">C</option>
-                                        <option value="0">RA</option>
+                                        <option value='' selected={!grades[item.name]}  className='max-md:text-xs'>Choose</option>
+                                        <option value="10" className='max-md:text-xs'>O</option>
+                                        <option value="9" className='max-md:text-xs'>A+</option>
+                                        <option value="8" className='max-md:text-xs'>A</option>
+                                        <option value="7" className='max-md:text-xs'>B+</option>
+                                        <option value="6" className='max-md:text-xs'>B</option>
+                                        <option value="5" className='max-md:text-xs'>C</option>
+                                        <option value="0" className='max-md:text-xs'>RA</option>
+                                        <option value="0" className='max-md:text-xs'>No Subject</option>
                                     </select>
                                 </div>
                             </div>
