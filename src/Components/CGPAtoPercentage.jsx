@@ -39,7 +39,7 @@ function CGPAtoPercentage() {
                     </div>
                     <form onSubmit={CGPAtoPercentage} >
                         <div className='flex  justify-around items-center gap-5 '>
-                            <h2 className="font-semibold" >CGPA</h2>
+                            <h1 className="font-semibold" >CGPA</h1>
                             <input onChange={(e) => setCGPA(e.target.value)} type="text" placeholder="Enter CGPA" className="input input-bordered md:w-[20rem] max-w-xs" />
                         </div>
                         <div className="flex justify-center pt-5">
